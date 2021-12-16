@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>两栏布局</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        html,body{
+            height: 100%;
+        }
+        .box{
+            height: 100%;
+            width: 200px;
+            background: red;
+            border: 1px solid red;
+            float: left;
+
+        }
+        .box1{
+            height: 100%;
+            background: yellow;
+            border: 1px solid yellow;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">111</div>
+    <div class="box1">111
+        <div>11111</div>
+    </div>
+</body>
+</html>
